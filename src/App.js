@@ -1,9 +1,8 @@
 import "./App.css";
+import Body from "./Components/Body";
 
 function App() {
-  return (
-    <div className="font-bold text-orange-600">Hello, Welcome to Movie app</div>
-  );
+  return <Body />;
 }
 
 export default App;
